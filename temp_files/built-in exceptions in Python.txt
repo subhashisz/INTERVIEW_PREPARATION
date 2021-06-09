@@ -1,0 +1,86 @@
+
+
+List of built-in exceptions in Python 3.
+Base Classes
+
+These exceptions are generally used as base classes for other exceptions.
+Exception 	Description
+BaseException 	The base class for all built-in exceptions. It is not meant to be directly inherited by user-defined classes (for that, use Exception below).
+Exception 	All built-in, non-system-exiting exceptions are derived from this class. All user-defined exceptions should also be derived from this class.
+ArithmeticError 	The base class for built-in exceptions that are raised for various arithmetic errors. These are: OverflowError, ZeroDivisionError, FloatingPointError.
+BufferError 	Raised when a buffer related operation cannot be performed.
+LookupError 	The base class for exceptions that are raised when a key or index used on a mapping or sequence is invalid. These are: IndexError and KeyError.
+Concrete Exceptions
+
+These are the exceptions that are usually raised.
+Exception 	Description
+AssertionError 	Raised when an assert statement fails.
+AttributeError 	
+
+Raised when an attribute reference or assignment fails.
+
+When an object does not support attribute references or attribute assignments at all, TypeError is raised.
+EOFError 	Raised when the input() function hits an end-of-file condition (EOF) without reading any data.
+FloatingPointError 	Raised when a floating point operation fails.
+GeneratorExit 	Raised when a generator or coroutine is closed. Technically, this is not an error, and the GeneratorExit exception directly inherits from BaseException instead of Exception.
+ImportError 	Raised when the import statement fails when trying to load a module. This exception is also raised when the from in from ... import has a name that cannot be found.
+ModuleNotFoundError 	A subclass of ImportError which is raised by import when a module could not be located. This exception is also raised when None is found in sys.modules.
+IndexError 	Raised when a sequence subscript is out of range.
+KeyError 	Raised when a mapping (dictionary) key is not found in the set of existing keys.
+KeyboardInterrupt 	Raised when the user hits the interrupt key (typically Control-C or Delete).
+MemoryError 	Raised when an operation runs out of memory but the situation may still be rescued (by deleting some objects).
+NameError 	Raised when a local or global name is not found. This applies only to unqualified names.
+NotImplementedError 	This exception is derived from RuntimeError. In user defined base classes, abstract methods should raise this exception when they require derived classes to override the method, or while the class is being developed to indicate that the real implementation still needs to be added.
+OSError() 	This exception is raised when a system function returns a system-related error, including I/O failures such as "file not found" or "disk full".
+OverflowError 	Raised when the result of an arithmetic operation is too large to be represented.
+RecursionError 	This exception is derived from RuntimeError. It is raised when the interpreter detects that the maximum recursion depth is exceeded.
+ReferenceError 	Raised when a weak reference proxy, created by the weakref.proxy() function, is used to access an attribute of the referent after it has been garbage collected.
+RuntimeError 	Raised when an error is detected that doesnâ€™t fall in any of the other categories.
+StopIteration 	Raised by the next() function and an iterator's __next__() method to signal that there are no further items produced by the iterator.
+StopAsyncIteration 	Must be raised by __anext__() method of an asynchronous iterator object to stop the iteration.
+SyntaxError 	Raised when the parser encounters a syntax error.
+IndentationError 	Base class for syntax errors related to incorrect indentation. This is a subclass of SyntaxError.
+TabError 	Raised when indentation contains an inconsistent use of tabs and spaces. This is a subclass of IndentationError.
+SystemError 	Raised when the interpreter finds an internal error, but it's not serious enough to exit the interpreter.
+SystemExit 	This exception is raised by the sys.exit() function, and (when it is not handled) causes the Python interpreter to exit.
+TypeError 	Raised when an operation or function is applied to an object of inappropriate type.
+UnboundLocalError 	Raised when a reference is made to a local variable in a function or method, but no value has been bound to that variable. This is a subclass of NameError.
+UnicodeError 	Raised when a Unicode-related encoding or decoding error occurs. It is a subclass of ValueError.
+UnicodeEncodeError 	Raised when a Unicode-related error occurs during encoding. It is a subclass of UnicodeError.
+UnicodeDecodeError 	Raised when a Unicode-related error occurs during encoding. It is a subclass of UnicodeError.
+UnicodeTranslateError 	Raised when a Unicode-related error occurs during encoding. It is a subclass of UnicodeError.
+ValueError 	Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception.
+ZeroDivisionError 	Raised when the second argument of a division or modulo operation is zero.
+OS Exceptions
+
+These exceptions are subclasses of OSError. They get raised depending on the actual system error code.
+Exception 	Description
+BlockingIOError 	Raised when an operation would block on an object (e.g. socket) set for non-blocking operation.
+ChildProcessError 	Raised when an operation on a child process failed.
+ConnectionError 	A base class for connection-related issues.
+BrokenPipeError 	A subclass of ConnectionError, raised when trying to write on a pipe while the other end has been closed, or trying to write on a socket which has been shutdown for writing.
+ConnectionAbortedError 	A subclass of ConnectionError, raised when a connection attempt is aborted by the peer.
+ConnectionRefusedError 	A subclass of ConnectionError, raised when a connection is reset by the peer.
+FileExistsError 	Raised when trying to create a file or directory which already exists.
+FileNotFoundError 	Raised when a file or directory is requested but doesnâ€™t exist.
+InterruptedError 	Raised when a system call is interrupted by an incoming signal.
+IsADirectoryError 	Raised when a file operation is requested on a directory.
+NotADirectoryError 	Raised when a directory operation is requested on something which is not a directory.
+PermissionError 	Raised when trying to run an operation without the adequate access rights.
+ProcessLookupError 	Raised when a given process doesnâ€™t exist.
+TimeoutError 	Raised when a system function timed out at the system level.
+Warnings
+
+The following exceptions are used as warning categories.
+Exception 	Description
+Warning 	Base class for warning categories.
+UserWarning 	Base class for warnings generated by user code.
+DeprecationWarning 	Base class for warnings about deprecated features.
+PendingDeprecationWarning 	Base class for warnings about features which will be deprecated in the future.
+SyntaxWarning 	Base class for warnings about dubious syntax.
+RuntimeWarning 	Base class for warnings about dubious runtime behavior.
+FutureWarning 	Base class for warnings about constructs that will change semantically in the future.
+ImportWarning 	Base class for warnings about probable mistakes in module imports.
+UnicodeWarning 	Base class for warnings related to Unicode.
+BytesWarning 	Base class for warnings related to bytes and bytearray.
+ResourceWarning 	Base class for warnings related to resource usage.

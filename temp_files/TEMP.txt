@@ -1,0 +1,46 @@
+* Array() constructor	
+* at      Experimental
+* concat	
+copyWithin	
+entries	
+every	
+fill	
+filter	
+find	
+findIndex	
+flat	
+flatMap	
+forEach	
+from	
+includes	
+indexOf	
+isArray	
+join	
+keys	
+lastIndexOf	
+length	
+map	
+of	
+pop	
+push	
+reduce	
+reduceRight	F
+reverse	
+shift	
+slice	
+some
+sort
+Stable sorting
+splice	F
+Full s
+toLocaleString	
+Optional locales parameter
+Optional options parameter
+toSourceNon-standard
+No supportNo
+toString	
+unshift
+values	
+@@iterator	
+@@species	
+@@unscopables

@@ -11,6 +11,22 @@ public class Employee {
 	private String sex;
 	private String email;
 	private String phoneNumber;
+	
+	public Employee() {}
+	
+
+	public Employee(String firstName, String lastName, Address homeAddress, Address officeAddress, String sex,
+			String email, String phoneNumber) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.homeAddress = homeAddress;
+		this.officeAddress = officeAddress;
+		this.sex = sex;
+		this.email = email;
+		this.phoneNumber = phoneNumber;
+	}
+
 
 	public String getFirstName() {
 		return firstName;
