@@ -1,0 +1,30 @@
+**********************************************************************************************
+                                       OOPS 
+**********************************************************************************************
+Q: Explain OOPS concept?
+Q: What is the difference between equals() and == ?
+Q: What are rules of overriding and overloading ?
+Q: Difference between StringBuilder and StringBuffer ?
+Q: What is co-variant return type?
+Q: 
+
+**********************************************************************************************
+                                       COLLECTION
+**********************************************************************************************
+Q. What is the difference between HashTable and HashMap? 
+Q. What is the difference between ArrayList and LinkedList? 
+Q. WHat is ConcurrentModificationException? 
+Q. What is Fail Fast and Fail Safe operation? 
+Q. Explain CopyOnWriteArrayList, CopyOnWriteArraySet and ConcurrentHashMap?
+Q: How HashMap works internally ?
+
+**********************************************************************************************
+                                       THREAD
+**********************************************************************************************
+Q: If we invoke t.start() two times then what will happen?
+Q: What is the difference between t.start() and t.run()?
+Q: What are shemaphore, count-down-latch, cyclic barrier, volatile, 
+
+**********************************************************************************************
+                                       JAVA ENHANCEMENT
+**********************************************************************************************

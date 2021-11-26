@@ -1,0 +1,90 @@
+Q: Write down program of fibonacci series ?
+Q: Write down Armstrong number ?
+Q: Write down a program where dead-luck will happen definitely ? How to Create a Deadlock Scenario programatically?
+Q: Write down program where one thread will print even number and another will print odd number simultaneously?
+Q: Remove duplicate from array and ArrayList ?
+Q: Find third highest from array of numbers ?
+Q: Implement List ?
+Q: Implement LinkedList ?
+Q: How to reverse a String in Java?
+Q: How to swap two numbers without using a third variable?
+Q: Java Program to check if a vowel is present in the string?
+Q: Java program to check if the given number is Prime?
+Q: Fibonacci Series using recursion
+Q: Check if a List of integers contains only odd numbers?
+Q: Palindrome Check ?
+Q: How to remove Whitespaces from String ?
+Q: How to remove leading and trailing whitespaces from a string?
+Q: Sorting an array in Java?
+Q: Find factorial of an integer?
+Q: Revese a Linked List?
+Q: How to implement Binary Search?
+Q: Merge Sort in Java?
+Q: Check if two arrays contains same elements?
+Q: Sum of all elements in integer array?
+Q: How to merge two lists in java?
+Q: How to Sort HashMap by values?
+Q: remove all occurrences of a given character from input String?
+Q: How to prove String is immutable programatically?
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q:
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q:
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q:
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q:
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q: 
+Q:  
+Q: 
+ 
